@@ -11,17 +11,17 @@
     <script>
   $(document).ready(function(){
       $("button").click(function(){ // efek klik 
-          $("p").hide(); // menyembunyikan element p pada html 
+          $("p").hide(); // menyembunyikan element  pada html 
+          $("#hide").hide(); // menyembunyikan id pada html
       });
   });
-
 
        
     </script>
 </head>
 <body>
-    <p>Aku Akan Menghilang jika Klik Tombol dibawah</p>
-    <p>Aku juga akan menghilang</p>
+    <p>Aku menggunakan elemen</p>
+    <p id="hide">Aku menggunakan id</p>
 <button>Klik Disini</button>
 </body>
 </html>
